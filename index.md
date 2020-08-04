@@ -7,6 +7,7 @@ to the simple Random Response mechanism, use differential privacy in your data e
 ### Our world is full of data. Our world *is* data.
 #### So let's protect it. Easily.
 
+
 ## How to Use
 The first method we will use is the _Random Response Mechanism_. To use this, we use the `random` function.
 You only need to pass *one* parameter. 
