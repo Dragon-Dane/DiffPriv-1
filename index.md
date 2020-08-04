@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+![DiffPriv Logo](https://docs.google.com/drawings/d/e/2PACX-1vQ8A92uJpy4g09GFYxayNQXOvtl0wmXXkYFiteDFSaXVcfdbcm835wc_IjjlKHlM94rjdsM7H1Szzjq/pub?w=600)
 
-You can use the [editor on GitHub](https://github.com/Quantalabs/DiffPriv/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+DiffPriv is a collection of different defferential privacy algorithms. From the Laplace Mechanism
+to the simple Random Response mechanism, use differential privacy in your data easily with _DiffPriv_.
 
-### Markdown
+### Our world is full of data. Our world *is* data.
+#### So let's protect it. Easily.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## How to Use
+The first method we will use is the _Random Response Mechanism_. To use this, we use the `random` function.
+You only need to pass *one* parameter. 
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Quantalabs/DiffPriv/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    random(response_list)
+    
+Response list, the parameter, is the list of data or responses in a form. 
